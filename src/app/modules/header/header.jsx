@@ -8,7 +8,7 @@ import MenuBar from "../menu/menu";
 
 const Header = () => {
   return (
-    <header className="w-full p-3 md:p-5 sticky top-0 z-50">
+    <header className="w-full p-3 md:p-5">
       <div className="header-wrapper text-white px-4 py-3 md:px-6 md:py-4 mx-auto max-w-[1440px] flex items-center justify-between">
         <Link
           href={"/"}
